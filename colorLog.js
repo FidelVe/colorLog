@@ -1,10 +1,14 @@
 const TAGS = {
   reset: "\x1b[0m",
   colors: {
+    black: "\x1b[30m",
     red: "\x1b[31m",
     green: "\x1b[32m",
     yellow: "\x1b[33m",
     default: "\x1b[39m"
+  },
+  style: {
+    bold: "\x1b[1m"
   },
   bg: {
     default: "\x1b[49m",
@@ -16,17 +20,17 @@ const TAGS = {
 
 function alertMsg(msg) {
   //
-  return `${TAGS.bg.red}${msg}${TAGS.bg.default}`;
+  return `\x1b[41;30m${msg}${TAGS.reset}`;
 }
 
 function warningMsg(msg) {
   //
-  return `${TAGS.bg.yellow}${msg}${TAGS.bg.default}`;
+  return `\x1b[43;30m${msg}${TAGS.reset}`;
 }
 
 function successMsg(msg) {
   //
-  return `${TAGS.bg.green}${msg}${TAGS.bg.default}`;
+  return `\x1b[42;30m${msg}${TAGS.reset}`;
 }
 
 module.exports = {
