@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "@fidelve/colorLog"
+    "url": "git@github.com:FidelVe/colorLog.git"
   },
   "keywords": [
     "color",
