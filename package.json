@@ -1,5 +1,5 @@
 {
-  "name": "colorlog",
+  "name": "@fidelve/colorlog",
   "version": "1.0.0",
   "description": "simple module to print colored logs",
   "main": "colorLog.js",
