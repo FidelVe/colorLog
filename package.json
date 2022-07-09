@@ -15,5 +15,8 @@
     "log"
   ],
   "author": "fidelve",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "@fidelve:registry": "https://npm.pkg.github.com"
+  }
 }
