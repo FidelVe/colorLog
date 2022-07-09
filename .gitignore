@@ -8,9 +8,3 @@ logs/*
 
 # misc files
 .env
-TODO
-data/templates
-data/preps.json
-data/state.json
-data/monitor.json
-data/db.json
