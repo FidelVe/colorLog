@@ -1,0 +1,19 @@
+{
+  "name": "colorlog",
+  "version": "1.0.0",
+  "description": "simple module to print colored logs",
+  "main": "colorLog.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@fidelve/colorLog"
+  },
+  "keywords": [
+    "color",
+    "log"
+  ],
+  "author": "fidelve",
+  "license": "MIT"
+}
